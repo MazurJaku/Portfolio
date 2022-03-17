@@ -13,23 +13,23 @@ body{
 }
 
 a:link {
-    color: #A2B1B6;
+    color: red;
     background-color: transparent;
     text-decoration: none;
 }
-  
+
 a:visited {
     color: #1D2424;
     background-color: transparent;
     text-decoration: none;
 }
-  
+
 a:hover {
-    color: red;
+    color: #A2B1B6;
     background-color: transparent;
     text-decoration: underline;
 }
-  
+
 a:active {
     color: #5B696D;
     background-color: transparent;
@@ -69,7 +69,7 @@ a:active {
     font-size: 1.1rem;
 }
 
-.contactbutton{
+.button1{
     background-color: #A9ACA9;
     color: black;
     font-size: 1.1rem;
@@ -128,9 +128,7 @@ a:active {
     margin: 0.1rem;
     border-radius: 1rem;
     padding: 0.35rem;
-    height: 400px;
-    /* display: flex;
-    flex-direction: column; */
+    height: 360px;
     display: block;
     box-shadow: 0.1rem 0.1rem 0.5rem black;
 }
@@ -141,7 +139,7 @@ a:active {
     overflow: hidden;
 }
 
-/* Responsive img properties- max-width, height */
+/* Responsive img properties- max-width 100%, heightvauto */
 .projects img{
     max-width: 100%;
     height: auto;
@@ -149,11 +147,67 @@ a:active {
 }
 
 .projects-description{
-    height: 200px;
+    height: 160px;
 }
 
 .contact{
+    background-color: #353534;
     border-radius: 1rem;
-    margin-top: 0.2rem;
-    background-color: #84979E;
+    padding: 0.4rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem black;
+}
+
+.contact h3{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact p{
+    padding: 0.5rem;
+}
+
+.contact a{
+    color: rgb(230, 230, 230);
+}
+
+#linkedin{
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    padding-right: 0.15rem;
+}
+
+#github{
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contactform{
+    /* margin: 0.5rem; */
+    padding: 0.5rem;
+    display: flex;
+}
+
+.contactform label{
+    padding: 0.2rem;;
+}
+
+.contactform input[type=text], input[type=email], textarea{
+    width: 100%;
+    background-color: #5B696D;
+    border-style: none;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.contactform input:placeholder-shown, textarea:placeholder-shown{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contactform input[type=submit]{
+    justify-content: space-around;
 }
