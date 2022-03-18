@@ -40,7 +40,7 @@ a:active {
 .hero{
     display: flex;
     flex-direction: column;
-    background-image: url(/img/hero-mobile.jpg) , linear-gradient(black, white);
+    background-image: url(/img/hero-mobile.jpg)
     background-repeat: no-repeat;
     border: 1px solid black;
     padding: 0.4rem;
@@ -77,11 +77,12 @@ a:active {
     border-radius: 1rem;
     padding: 0.5rem;
     margin-top: 1rem;
+    transition-duration: 0.4s;
 }
 
-/* .contactbutton :hover{
-    background-color: ;
-} */
+.button1:hover{
+    background-color: #5B696D;
+}
 
 .about{
     background-color: #353534;
@@ -139,7 +140,7 @@ a:active {
     overflow: hidden;
 }
 
-/* Responsive img properties- max-width 100%, heightvauto */
+/* Responsive img properties- max-width 100%, height auto */
 .projects img{
     max-width: 100%;
     height: auto;
@@ -210,4 +211,14 @@ a:active {
 
 .contactform input[type=submit]{
     justify-content: space-around;
+}
+
+@media only screen and (min-width: 481px){
+
+
+}
+
+@media only screen and (min-width: 769px){
+
+    
 }
