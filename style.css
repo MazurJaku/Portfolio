@@ -19,7 +19,7 @@ a:link {
 }
 
 a:visited {
-  color: #1d2424;
+  color: #7f8383;
   background-color: transparent;
   text-decoration: none;
 }
@@ -52,7 +52,7 @@ a:active {
 
 .hero-content {
   background-color: rgba(39, 32, 32, 0.555);
-  font-size: 13px;
+  font-size: 1rem;
   text-align: center;
   width: fit-content;
   padding: 0.8rem;
@@ -126,13 +126,13 @@ a:active {
   margin: 0.1rem;
   border-radius: 1rem;
   padding: 0.35rem;
-  height: 360px;
+  height: auto;
   display: block;
   box-shadow: 0.1rem 0.1rem 0.5rem black;
 }
 
 .img-container {
-  height: 200px;
+  height: auto;
   overflow: hidden;
 }
 
@@ -144,7 +144,7 @@ a:active {
 }
 
 .projects-description {
-  height: 160px;
+  height: auto;
 }
 
 .contact {
@@ -213,7 +213,34 @@ textarea:placeholder-shown {
 }
 
 @media only screen and (min-width: 481px) {
+
+body{
+  max-width: 768px;
 }
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.projects {
+  background-color: #1d2424;
+  height: auto;
+  display: block;
+  min-width: 230px;
+  max-width: 49%;
+}
+
+
+
+}
+
+
+
+
+
 
 @media only screen and (min-width: 769px) {
 }
