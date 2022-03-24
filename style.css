@@ -7,7 +7,7 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(230, 230, 230);
-  max-width: 480px;
+  /* max-width: 480px; */
   background-color: #5c5957;
   margin: auto;
 }
@@ -241,9 +241,9 @@ footer{
 
 @media only screen and (min-width: 481px) {
 
-body{
+/* body{
   max-width: 768px;
-}
+} */
 
 .projects-container {
   display: flex;
@@ -256,7 +256,7 @@ body{
   background-color: #1d2424;
   height: auto;
   display: block;
-  min-width: 230px;
+  min-width: 220px;
   max-width: 49%;
 }
 
@@ -288,7 +288,7 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 
@@ -297,8 +297,8 @@ body{
   background-color: #1d2424;
   height: auto;
   display: block;
-  min-width: 230px;
   max-width: 33%;
+  flex: 1 1 200px;
 }
 
 .contact{
