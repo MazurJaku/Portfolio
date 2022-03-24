@@ -7,7 +7,6 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(230, 230, 230);
-  /* max-width: 480px; */
   background-color: #5c5957;
   margin: auto;
 }
@@ -195,7 +194,6 @@ a:active {
 }
 
 .contactform {
-  /* margin: 0.5rem; */
   padding: 0.5rem;
   display: flex;
 }
@@ -241,9 +239,6 @@ footer{
 
 @media only screen and (min-width: 481px) {
 
-/* body{
-  max-width: 768px;
-} */
 
 .projects-container {
   display: flex;
@@ -292,7 +287,6 @@ body{
 }
 
 
-/* Must sort out width of .projects elements to always fit full .project-container */
 .projects {
   background-color: #1d2424;
   height: auto;
