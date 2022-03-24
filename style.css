@@ -48,7 +48,21 @@ a:active {
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
   box-shadow: 0.1rem 0.1rem 0.5rem black;
+  /* position: relative; */
 }
+
+/* .hero-icons{
+  position: absolute;
+  display: flexbox;
+}
+
+.gt{
+
+}
+
+.in{
+
+} */
 
 .hero-content {
   background-color: rgba(39, 32, 32, 0.555);
@@ -256,4 +270,52 @@ body{
 
 
 @media only screen and (min-width: 769px) {
+
+body{
+  max-width: 1024px;
+}
+
+.hero{
+  background-image: url("img/hero-desktop.jpg");
+}
+
+.about{
+  padding: 2rem;
+}
+
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+/* Must sort out width of .projects elements to always fit full .project-container */
+.projects {
+  background-color: #1d2424;
+  height: auto;
+  display: block;
+  min-width: 230px;
+  max-width: 33%;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.contactform{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  max-width: 50%;
+}
+
+.contacttext{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  max-width: 50%;
+}
+
 }
